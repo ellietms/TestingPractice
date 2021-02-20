@@ -3,6 +3,7 @@ import React, { useState } from "react";
 function App() {
   const [buttonColor, setButtonColor] = useState("red");
   const [nameButton, setNameButton] = useState("blue");
+  
   const handleButtonColor = () => {
     if (buttonColor === "red") {
       setButtonColor("blue");
